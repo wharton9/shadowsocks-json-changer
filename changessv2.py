@@ -62,7 +62,7 @@ def write_port_pass(fname,params):
 
     with open(fname,'w') as f:
         json.dump(json_data,f,indent=2)
-        print('json writed')
+        print('json written')
     f.close()
 
 # Run the get port and password 
